@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15e527be-11c7-4c0d-a5b6-862d02b3b3a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/server_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2qUM6qkcUG7CBOhXux6AwhEu8we" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15e527be-11c7-4c0d-a5b6-862d02b3b3a2" name="Changes" comment="" />
+      <created>1734712528210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734712528210</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ai.zencoder.plugin.chat.state">
+    <option name="activeChatId" value="25a88517-ba9c-4a3e-8f33-5307da97fb13" />
+    <option name="chatSessions" value="{&quot;25a88517-ba9c-4a3e-8f33-5307da97fb13&quot;:{&quot;id&quot;:&quot;25a88517-ba9c-4a3e-8f33-5307da97fb13&quot;,&quot;createdAt&quot;:1734712687640,&quot;updatedAt&quot;:1734712705382,&quot;title&quot;:&quot;can you create a new project structure&quot;,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;can you create a new project structure&quot;}],&quot;context&quot;:{&quot;attachedFiles&quot;:null,&quot;ragFiles&quot;:[]},&quot;origin&quot;:null,&quot;createdAt&quot;:1734712687649,&quot;isInternal&quot;:false},{&quot;role&quot;:&quot;assistant&quot;,&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;To create a new project structure for your cryptocurrency trading bot using Binance API, FastAPI, Docker, and MQTT, you can follow the structure below. This setup will help you organize your code and configurations effectively for a microservice architecture.\n\n### Project Structure\n\n```\ncrypto-trading-bot/\n│\n├── app/\n│   ├── __init__.py\n│   ├── main.py\n│   ├── api/\n│   │   ├── __init__.py\n│   │   └── endpoints.py\n│   ├── core/\n│   │   ├── __init__.py\n│   │   └── config.py\n│   ├── services/\n│   │   ├── __init__.py\n│   │   ├── binance_service.py\n│   │   └── mqtt_service.py\n│   └── utils/\n│       ├── __init__.py\n│       └── helpers.py\n│\n├── docker/\n│   ├── Dockerfile\n│   └── docker-compose.yml\n│\n├── tests/\n│   ├── __init__.py\n│   └── test_main.py\n│\n├── .env\n├── .gitignore\n└── README.md\n```\n\n### Explanation\n\n- **app/**: Contains the main application code.\n  - **main.py**: The entry point of your FastAPI application.\n  - **api/**: Contains API endpoint definitions.\n  - **core/**: Contains core configurations and settings.\n  - **services/**: Contains services for interacting with Binance API and MQTT.\n  - **utils/**: Contains utility functions and helpers.\n\n- **docker/**: Contains Docker-related files.\n  - **Dockerfile**: Defines the Docker image for your application.\n  - **docker-compose.yml**: Defines services, networks, and volumes for Docker Compose.\n\n- **tests/**: Contains test cases for your application.\n\n- **.env**: Environment variables for configuration.\n\n- **.gitignore**: Specifies files and directories to be ignored by Git.\n\n- **README.md**: Provides an overview and instructions for your project.\n\n### Next Steps\n\n1. **Implement FastAPI Endpoints**: Define your API endpoints in `app/api/endpoints.py`.\n2. **Configure Binance and MQTT Services**: Implement the logic for connecting to Binance API and publishing to MQTT in `app/services/binance_service.py` and `app/services/mqtt_service.py`.\n3. **Dockerize the Application**: Write the Dockerfile and docker-compose.yml to containerize your application.\n4. **Testing**: Write test cases in the `tests/` directory to ensure your application works as expected.\n\nThis structure provides a solid foundation for developing your cryptocurrency trading bot as a microservice. Let me know if you need further assistance with any specific part of the implementation!&quot;}],&quot;context&quot;:null,&quot;origin&quot;:null,&quot;createdAt&quot;:1734712705382,&quot;isInternal&quot;:false}],&quot;context&quot;:null,&quot;isRagSearchEnabled&quot;:true,&quot;isCurrentFileUsageEnabled&quot;:true,&quot;isAgent&quot;:false}}" />
+    <option name="customInstruction" value="I am trying to develop cryptocurrency trading bot by using binance API.&#10;&#10;In future I will include other api's (Ex: coindcx, coinswitch pro, ). but I am starting with binance.&#10;&#10;In this I will try to develop connect to binance using async websockets and stream for account updates and publish to MQTT topics with the common json payload.&#10;&#10;I am using docker with docker compose.&#10;&#10;Iam starting a new project and I want this project to be like a microservice which I can run in docker independently with FASTAPI&#10;&#10;And also I want to publish the messages to the topics(order filled, trades,...) to the MQTT server" />
+  </component>
+  <component name="ai.zencoder.plugin.rag.state">
+    <option name="lastIndexTimestamp" value="1734712690731" />
+    <option name="repositoryId" value="56a0897b-1067-4740-9e23-efa1eadfd7e2" />
+    <option name="state" value="FULLY_INDEXED" />
+  </component>
+</project>
