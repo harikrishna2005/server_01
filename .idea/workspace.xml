@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e527be-11c7-4c0d-a5b6-862d02b3b3a2" name="Changes" comment="commit the mmaster and push">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binance_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/object_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/binance_service_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/server_service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="15e527be-11c7-4c0d-a5b6-862d02b3b3a2" name="Changes" comment="I want to push also" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,12 +103,29 @@
       <option name="project" value="LOCAL" />
       <updated>1734713584053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I want to push also">
+      <option name="closed" value="true" />
+      <created>1734795775794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734795775794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I want to push also">
+      <option name="closed" value="true" />
+      <created>1734795785879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734795785879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit the mmaster and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit the mmaster and push" />
+    <MESSAGE value="I want to push also" />
+    <option name="LAST_COMMIT_MESSAGE" value="I want to push also" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -137,8 +144,8 @@
     <option name="customInstruction" value="I am trying to develop cryptocurrency trading bot by using binance API.&#10;&#10;In future I will include other api's (Ex: coindcx, coinswitch pro, ). but I am starting with binance.&#10;&#10;In this I will try to develop connect to binance using async websockets and stream for account updates and publish to MQTT topics with the common json payload.&#10;&#10;I am using docker with docker compose.&#10;&#10;Iam starting a new project and I want this project to be like a microservice which I can run in docker independently with FASTAPI&#10;&#10;I am using PYTEST framework for testing. so generate testcases based on PYTEST ASYNC&#10;&#10;And also I want to publish the messages to the topics(order filled, trades,...) to the MQTT server" />
   </component>
   <component name="ai.zencoder.plugin.rag.state">
-    <option name="lastCommitHash" value="0026c3dde02b5f6c0a484d9dcf1d76b2faf1ed35" />
-    <option name="lastIndexTimestamp" value="1734713591346" />
+    <option name="lastCommitHash" value="bb00fa797dd9509fbafd06d1d760e97c035329c0" />
+    <option name="lastIndexTimestamp" value="1734795790970" />
     <option name="repositoryId" value="56a0897b-1067-4740-9e23-efa1eadfd7e2" />
     <option name="state" value="FULLY_INDEXED" />
   </component>
