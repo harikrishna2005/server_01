@@ -3,8 +3,8 @@ import asyncio
 from binance import AsyncClient, BinanceSocketManager
 
 
-api_bin_key ="Rfm2PZaBAgavqhZWJA2N8xOEUprsMcLg3rgE9jFyhy4FV4bZMTwDYlTsqWXrz387"
-api_bin_secret = "xoyngETgiBGTmvQR5YOL9pVcbcXCiyJCaTfL8j85wDYdAo49CvVvEmRsvqDLw07y"
+api_bin_key ="kajskasdf"
+api_bin_secret = "asdfasdf"
 
 class HariBinanceSocketManager:
     def __init__(self, client, symbol: str):
